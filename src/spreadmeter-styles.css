@@ -1,0 +1,139 @@
+.slider-container-big {
+  width: 500px;
+}
+.slider-big {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.track-big {
+  width: 400px;
+  height: 19px;
+  background: linear-gradient(
+    90deg,
+    #68d542 4.13%,
+    #fcc97e 33.59%,
+    #9f46ad 67.54%,
+    #2d0744 100%
+  );
+  border-radius: 17px;
+}
+
+.thumb-big {
+  box-sizing: border-box;
+  width: 93px;
+  height: 65px;
+
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 46px;
+  position: relative;
+  top: -40px;
+  left: 20%;
+  text-align: center;
+}
+
+.number-big {
+  height: 51px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 63px;
+
+  color: #000000;
+}
+
+.unit-big {
+  width: 400px;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+  top: -48px;
+}
+
+.slider-container-small {
+  width: 500px;
+}
+.slider-small {
+  width: 336px;
+  margin: 0 auto;
+}
+
+.track-small {
+  width: 336px;
+  height: 6px;
+
+  background: linear-gradient(
+    90deg,
+    #68d542 4.13%,
+    #fcc97e 33.59%,
+    #9f46ad 67.54%,
+    #2d0744 100%
+  );
+  border-radius: 17px;
+  transform: rotate(-180deg);
+}
+
+.thumb-small {
+  box-sizing: border-box;
+
+  width: 65px;
+  height: 44px;
+  left: 718px;
+  top: 443px;
+
+  background: #ffffff;
+  border: 2px solid #c58689;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 46px;
+  position: relative;
+  top: -25px;
+  text-align: center;
+}
+
+.number-small {
+  height: 34px;
+  left: 736px;
+  top: 448px;
+
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #000000;
+}
+
+.unit-small {
+  width: 336px;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+  top: -30px;
+}
+
+.min-unit-small,
+.min-unit-big {
+  width: 75px;
+  height: 23px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  float: left;
+}
+.max-unit-small,
+.max-unit-big {
+  width: 52px;
+  height: 23px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  float: right;
+}
