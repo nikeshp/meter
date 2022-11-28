@@ -1,4 +1,4 @@
-import "/src/spreadmeter-styles.css";
+import "./spreadmeter-styles.css";
 
 type SpreadMeterProps = {
   min: number;
@@ -15,7 +15,7 @@ const SpreadMeter = ({
   value,
   direction = 0,
   size = "big",
-  unit = "bps"
+  unit = "bps",
 }: SpreadMeterProps): JSX.Element => {
   const sliderPosition = ((value - min) / (max - min)) * 100;
   const thumbWidth = size === "big" ? 93 : 65;
